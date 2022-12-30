@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* custom scrollbar  */
+/* width */
+::-webkit-scrollbar {
+    width: 0;
+    cursor: not-allowed;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    /* background: rgb(75, 80, 80);  */
+}
